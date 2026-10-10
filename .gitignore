@@ -253,6 +253,9 @@ flamingoAdmin/Tests/Release_x64/
 # 本地联调用的测试账号清单，含明文口令，不入库
 /测试账号.md
 
+# 给 Claude Code 用的项目说明（工作约定、构建与测试要点），只在本地维护，不纳入版本控制（2026-10-10 起）
+/CLAUDE.md
+
 # third-party/balloonui 是**独立的 git 仓库**（远端 git@github.com:balloonwj/balloonui.git），
 # 有自己的提交历史，不随主仓库一起提交。
 # 必须在这里显式忽略：否则 `git add -A` 会把它当成子模块、往索引里塞一个
